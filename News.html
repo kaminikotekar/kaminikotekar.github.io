@@ -123,7 +123,7 @@
                                 <div class="mh-blog-item dark-bg blog-single">
                                     <img src="assets/images/p-2.png" alt="" style="width: 100%">
                                     <div class="blog-inner">
-                                        <h1 style="color: #0bceaf">A Project Based on Machine Learning Techniques</h1>
+                                        <h3 style="color: #0bceaf">A multiclass classifier to indentify topics/ subjects of news articles.</h3>
                                         <!--div class="mh-blog-post-info">
                                             <ul>
                                                 <li><strong>Post On</strong><a href="">24.11.19</a></li>
@@ -131,14 +131,14 @@
                                             </ul>
                                         </div>-->
                                         <p style="">
-                                           This system classifies a web based articles as news , gadgets and sports. This system is based on a probablistic learning approach called as the Naive Bayes Algorithm. The initial accuracuy of the model was 62%. However the accuracy improved each time the model misclassified an article. It is a python based project that makes use of scikit Learn tool for building a predictive model, flask for hosting of the web appication.
+                                           This system classifies web based articles as news , gadgets and sports  based on a probablistic learning approach called as the Naive Bayes Algorithm implemented in python making use of scikit-learn tool.
                                         </p>                                        
                                        <p>
-                                           Initially a web crawler is built using Beautiful Soup python module that scraps data from different news sites in order to generate a dataset that can be used for training the model. However, this raw data has to be treated to convert it into suitable format for the model called as data preprocessing. Python Nltk module is used for preprocessing data such as tokenization, stop words removal, lemmatization etc.  
+                                           Initially a web crawler is built using Beautiful Soup Python module that scraps data from different news sites in order to generate a dataset that can be used for training the model. Python NLTK module is used for preprocessing this data such as tokenization, stop words removal, lemmatization etc.  
                                         </p> 
 
                                          <p>
-                                           A bag of words model is then generated from the preprocessed data  using the CountVectorizer module. This bag of words model is then segreggated as 80% training set and 20% test set to determine the model's efficiency. The training set is then fitted to the Naive Bayes model ( GaussianNB ) which can then be used to predict corresponding labels of an article given by the user. If the model misclassified an article, then the correct label, taken from the user is appended to the dataset and the model is retrained. 
+                                           A bag of words model is then generated from the preprocessed data which is segmented into training set and test set to determine the model's efficiency. A GaussianNB is then trained  on the data for prediction in the test set. Dynamic training option is also enabled which means that the model is trained again on misclassification.
                                              
                                         </p>       
                                         <p> 
@@ -201,7 +201,7 @@
                             <div class="col-sm-12 ">
                                 <div class="row mh-related-post">
                                     <div class="mh-blog-next-prev-post col-md-6 text-left">
-                                        <a href="untitled.html"><i class="fa fa-angle-left"></i> Preious</a>
+                                        <a href="kay-site.html"><i class="fa fa-angle-left"></i> Previous</a>
                                     </div>                                
                                     <div class="mh-blog-next-prev-post col-md-6 text-right">
                                         <a href="Auction.html">Next <i class="fa fa-angle-right"></i></a>
@@ -275,12 +275,12 @@
                                     </div>
                                 </div>
                                 <h2>Kamini Kotekar</h2>
-                                <h4>Machine Learning</h4>
+                                <h4>Data Scientist</h4>
                                 <p>
-                                    Currently a Data Science student and working on Deep Learning and AI
+                                    Data Science graduate
                                 </p>
                                 <ul class="social-icon">
-                                    <li><a href="https://www.facebook.com/people/Kamini-Kotekar/100004806406463"><i class="fa fa-facebook"></i></a></li>
+                                  <!--  <li><a href="https://www.facebook.com/people/Kamini-Kotekar/100004806406463"><i class="fa fa-facebook"></i></a></li>-->
                                     <li><a href="https://github.com/kaminikotekar"><i class="fa fa-github"></i></a></li>
                                     <li><a href="https://in.linkedin.com/in/kamini-kotekar"><i class="fa fa-linkedin"></i></a></li>
 
